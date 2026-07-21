@@ -1,43 +1,70 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d1a,50:1a1a3e,100:4047E6&height=200&section=header&text=Alp%20Yalay&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=@KhazP%20%E2%80%A2%20Vibe-Coder&descSize=17&descAlignY=56&descColor=8888cc"/>
+<a href="https://alpyalay.org">
+  <img src="https://alpyalay.org/icon.svg" width="110" alt="Alp Yalay logo" />
+</a>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=7B82FF&center=true&vCenter=true&random=false&width=560&lines=Crafting+web+experiences+that+matter+%F0%9F%9A%80;Next.js+%7C+React+%7C+TypeScript+%7C+Sanity+CMS;Building+cool+things+with+AI+tools+%E2%9A%A1;Always+learning%2C+always+shipping+%F0%9F%94%A5)](https://git.io/typing-svg)
+<h1>Alp Yalay</h1>
+
+<p>
+  <strong>Full-stack builder · Open-source maker · Vibe-coder</strong>
+</p>
+
+<div align="center">
+  
+[![Website](https://img.shields.io/badge/alpyalay.org-Website-292d66?style=flat-square)](https://alpyalay.org)
+[![Email](https://img.shields.io/badge/contact%40alpyalay.org-Email-292d66?style=flat-square)](mailto:contact@alpyalay.org)
+[![GitHub](https://img.shields.io/badge/@KhazP-GitHub-292d66?style=flat-square\&logo=github)](https://github.com/KhazP)
+
+</div>
 
 <br/>
 
-### 👾 About Me
+## Selected work
 
 <table>
 <tr>
-<td width="50%" align="left">
+<td width="50%" valign="top">
 
-```typescript
-const alp = {
-  name: "Alp Yalay",
-  alias: "KhazP",
-  role: "Full-Stack Web Developer",
-  company: "Çağla Cabaoğlu Gallery",
-  stack: ["Next.js", "React", "TypeScript", "Node.js", "Sanity CMS", "Tailwind"],
-  tools: ["Claude Code", "GitHub Copilot", "Gemini CLI", "Vercel"],
-  machine: "MacBook Pro M4 Max",
-};
-```
+### [Vibe-Coding Workflow](https://github.com/KhazP/vibe-coding-prompt-template)
+
+An open-source workflow for turning rough ideas into research, product requirements, technical designs, build plans, and agent-ready instructions.
+
+[![Stars](https://img.shields.io/github/stars/KhazP/vibe-coding-prompt-template?style=flat-square\&label=Stars\&color=7B82FF)](https://github.com/KhazP/vibe-coding-prompt-template/stargazers)
+[![Template](https://img.shields.io/badge/Open-source_Template-292d66?style=flat-square)](https://github.com/KhazP/vibe-coding-prompt-template)
 
 </td>
-<td width="50%" align="center">
+<td width="50%" valign="top">
 
-🌐 **Web**  
-[alpyalay.org](https://alpyalay.org)
+### [Vibe Workflow](https://vibeworkflow.app)
 
-📧 **Mail**  
-[contact@alpyalay.org](mailto:contact@alpyalay.org)
+An interactive AI planning environment that transforms an app idea into a portable, build-ready context package for coding agents.
 
-💻 **Machine**  
-MacBook Pro M4 Max
+[![Live](https://img.shields.io/badge/Live-vibeworkflow.app-7B82FF?style=flat-square)](https://vibeworkflow.app)
+[![AI](https://img.shields.io/badge/AI_Product_Planning-292d66?style=flat-square)](https://vibeworkflow.app)
 
-🎯 **Focus**  
-Web Performance & AI Tooling
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### [Money Visualiser](https://moneyvisualiser.com)
+
+An interactive 3D experience that turns abstract amounts of money into physical, explorable stacks of real-world banknotes.
+
+[![Live](https://img.shields.io/badge/Live-moneyvisualiser.com-7B82FF?style=flat-square)](https://moneyvisualiser.com)
+[![3D](https://img.shields.io/badge/Interactive_3D-292d66?style=flat-square)](https://moneyvisualiser.com)
+
+</td>
+<td width="50%" valign="top">
+
+### [RealDex](https://alpyalay.org/realdex)
+
+A React Native wildlife discovery app that identifies animals and turns real-world encounters into a collectible Pokédex-style experience.
+
+[![Project](https://img.shields.io/badge/Mobile_AI-RealDex-7B82FF?style=flat-square)](https://alpyalay.org/realdex)
+[![React Native](https://img.shields.io/badge/React_Native-292d66?style=flat-square\&logo=react)](https://alpyalay.org/realdex)
 
 </td>
 </tr>
@@ -45,36 +72,52 @@ Web Performance & AI Tooling
 
 <br/>
 
-### 🛠️ Tech Stack
+## Open-source utilities
 
-[![My Skills](https://skillicons.dev/icons?i=js,ts,react,nextjs,tailwind,nodejs,python,docker,git,github,vercel,vscode,figma&theme=dark)](https://skillicons.dev)
+| Project                                                                               | What it does                                                                           |
+| ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| [Localization Comparison Tool](https://github.com/KhazP/Localization-Comparison-Tool) | Visually compares, manages, and translates localization files across multiple formats. |
+| [AutoTidy](https://github.com/KhazP/AutoTidy)                                         | Automatically organizes folders using configurable file age and naming rules.          |
+| [Reddit-to-AI](https://github.com/KhazP/Reddit-to-AI)                                 | Collects Reddit discussions and prepares them for analysis with AI tools.              |
+| [GetirFiltre](https://github.com/KhazP/GetirFiltre)                                   | Adds advanced restaurant filtering and blocking controls to Getir Yemek.               |
 
 <br/>
 
-### 🐍 Contribution Snake
+## Toolbox
+
+<div align="center">
+
+[![My Skills](https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,python,dart,flutter,tailwind,threejs,figma,docker,git,github,vercel&theme=dark&perline=15)](https://skillicons.dev)
+
+</div>
+
+<br/>
+
+## Contributions
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KhazP/KhazP/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KhazP/KhazP/output/github-snake.svg" />
-  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/KhazP/KhazP/output/github-snake-dark.svg" />
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/KhazP/KhazP/output/github-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/KhazP/KhazP/output/github-snake.svg"
+  />
+  <img
+    alt="GitHub contribution graph"
+    src="https://raw.githubusercontent.com/KhazP/KhazP/output/github-snake-dark.svg"
+  />
 </picture>
 
 <br/>
 
-<a href="https://alpyalay.org">
-  <img src="https://img.shields.io/badge/Website-alpyalay.org-4047E6?style=for-the-badge" />
-</a>
-&nbsp;
-<a href="mailto:contact@alpyalay.org">
-  <img src="https://img.shields.io/badge/Email-contact%40alpyalay.org-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-&nbsp;
-<a href="https://github.com/KhazP?tab=repositories">
-  <img src="https://img.shields.io/badge/Projects-View%20Repos-7B82FF?style=for-the-badge&logo=github&logoColor=white" />
-</a>
+<div align="center">
 
-<br/><br/>
+**Building from Istanbul — usually with too many tabs open.**
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4047E6,50:1a1a3e,100:0d0d1a&height=130&section=footer"/>
+[Portfolio](https://alpyalay.org) ·
+[Projects](https://github.com/KhazP?tab=repositories) ·
+[Email](mailto:contact@alpyalay.org)
 
 </div>
