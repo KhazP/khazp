@@ -1,0 +1,34 @@
+name: Generate streak stats
+
+on:
+  schedule:
+    - cron: "30 0,12 * * *" # twice daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate streak card (dark)
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          path: profile/streak-dark.svg
+          options: "user=KhazP&hide_border=true&background=00000000&ring=7B82FF&fire=7B82FF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=7B82FF&sideLabels=9E9E9E&dates=6E7681&date_format=M j[, Y]"
+
+      - name: Generate streak card (light)
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          path: profile/streak-light.svg
+          options: "user=KhazP&hide_border=true&background=00000000&ring=7B82FF&fire=7B82FF&currStreakNum=24292F&sideNums=24292F&currStreakLabel=292d66&sideLabels=57606A&dates=6E7681&date_format=M j[, Y]"
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/streak-dark.svg profile/streak-light.svg
+          git diff --cached --quiet || (git commit -m "chore: update streak stats" && git push)
