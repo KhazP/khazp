@@ -93,7 +93,20 @@ A React Native wildlife discovery app that identifies animals and turns real-wor
 <div align="center">
 
 <a href="https://github.com/KhazP">
-  <img src="https://streak-stats.demolab.com/?user=KhazP&hide_border=true&background=00000000&ring=7B82FF&fire=7B82FF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=7B82FF&sideLabels=9E9E9E&dates=6E7681&stroke=292d66&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub streak stats" />
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/KhazP/KhazP/main/profile/streak-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/KhazP/KhazP/main/profile/streak-light.svg"
+    />
+    <img
+      alt="GitHub streak stats"
+      src="https://raw.githubusercontent.com/KhazP/KhazP/main/profile/streak-dark.svg"
+    />
+  </picture>
 </a>
 
 </div>
